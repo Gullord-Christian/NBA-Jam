@@ -1,0 +1,181 @@
+.body {
+	margin: 0 auto;
+}
+.dashboard {
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.frontPage {
+	background-image: linear-gradient(to top, rgb(88, 88, 88), white);
+	height: 100vh;
+}
+
+.page-link {
+	color: rgb(12, 167, 141);
+}
+.nbaJam {
+	height: 195px;
+	border-radius: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.navbarleft {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.navbarright {
+	width: 60%;
+}
+.frontImage1 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	width: 95%;
+	border-radius: 25px;
+	margin-top: 10px;
+	padding-bottom: 20px;
+	max-width: 1300px;
+}
+
+.frontPageTitle {
+	text-align: center;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	font-size: 75px;
+	color: rgb(12, 167, 141);
+}
+.frontPageSubTitle {
+	text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.frontPageBanner {
+	text-align: center;
+}
+.frontPageSubBanner {
+	text-align: center;
+}
+.frontPageBtn {
+	height: 35px;
+	width: 200px;
+	border-radius: 10px;
+	background-color: rgb(12, 167, 141);
+	color: white;
+	box-shadow: 4px 4px 10px gray;
+	display: block;
+	margin: 0 auto;
+	text-decoration: none;
+}
+.frontPageBtn:hover {
+	transform: scale(1.1);
+	box-shadow: 0px 10px 20px 2px black;
+	text-decoration: none;
+}
+
+.tableBody {
+	vertical-align: middle;
+	text-align: center;
+}
+.td {
+	vertical-align: center;
+}
+.dashboardTitle {
+	color: #5f9ea0;
+	text-align: center;
+	width: 75%;
+	font-size: 50px;
+}
+.search {
+	width: 200px;
+	height: 30px;
+	margin-top: 8px;
+	margin-left: 10px;
+	border-radius: 5px;
+}
+.imageSmall {
+	height: 120px;
+	width: 120px;
+	border-radius: 5px;
+}
+.imgLrg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid white;
+	border-radius: 10px;
+	width: 800px;
+	height: auto;
+	max-height: 835px;
+}
+.playerDesc {
+	text-align: center;
+	width: 800px;
+	margin: auto;
+}
+.container {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+	background-color: #f5f5f5;
+	border-radius: 5px;
+	width: 750px;
+}
+#favBtn {
+	height: 30px;
+	width: 80px;
+	border-radius: 5px;
+	border: 1px solid black;
+	color: rgb(12, 167, 141);
+	font-weight: bold;
+	background-color: white;
+	margin-top: 10px;
+	padding: 3px 3px;
+}
+.playerDetails {
+	justify-content: space-evenly;
+	display: flex;
+	text-align: center;
+	width: 375px;
+	margin: 0px auto;
+}
+.displayPlayerHeader {
+	display: flex;
+	margin-top: 10px;
+	align-items: center;
+}
+.nbaLogo {
+	height: 80px;
+	margin-left: 15px;
+}
+.conright {
+	width: 65%;
+}
+.conrightTitle {
+	text-align: center;
+	vertical-align: middle;
+}
+/* .favorites {
+    background-color: #F0F3F4;
+    display: inline-block;
+    margin-top: 6px;
+    cursor: pointer;
+    border-radius: 12px;
+    border: 1px solid #5D6D7E;
+    height: 30px;
+    width: 80px;
+}
+.favorites:hover {
+    background:rgb(197, 195, 195);
+}
+
+input:checked+label>favorites {
+    background: red;
+}
+
+input {
+    display: none;
+}
+
+input:checked+label>.favorites {
+    background-color: red !important;
+} */
